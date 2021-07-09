@@ -1,15 +1,4 @@
 <template>
-  <!-- <div
-    :style="
-      `background: url(${bg});
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;`
-    "
-    class="column justify-between"
-  > -->
-
   <div
     :style="
       `background: ${bg};
@@ -21,7 +10,7 @@
   >
     <div
       class="column justify-between"
-      :style="`height: 100vh; background: ${!isAdzan ? 'transparent' : '#333'}`"
+      :style="`height: 100vh; background: ${!isAdzan ? '#333' : '#333'}`"
     >
       <div class="header-bar" style="height: 150px; background: #333">
         <div class="row full-height justify-center content-center q-pa-md">
@@ -31,30 +20,10 @@
               class=""
               src="~assets/images/logo.png"
             ></q-img>
-
-            <!-- <q-btn
-              class="q-ml-sm"
-              dense
-              icon="volume_up"
-              color="white"
-              @click="activeSound"
-              flat
-              v-if="!isMuted"
-            ></q-btn>
-            <q-btn
-              class="q-ml-sm"
-              dense
-              icon="volume_off"
-              color="white"
-              @click="activeSound"
-              flat
-              v-if="isMuted"
-            ></q-btn> -->
           </div>
           <div class="col-8" style="height: 150px">
             <div
-              class="column justify-center items-center q-pb-md"
-              style="margin-top: -15px"
+              class="column justify-center items-center content-center q-pb-md"
             >
               <div
                 class="text-weight-bold"
@@ -65,7 +34,7 @@
                   >Al-Fatah</span
                 >
               </div>
-              <div class="text-white font-18">
+              <div class="text-white font-20">
                 Kp. Sukawening, RT.02/03, Desa Warjabakti, Kecamatan Cimaung
               </div>
               <div class="text-white font-18">Kabupaten Bandung</div>
@@ -73,20 +42,13 @@
           </div>
           <div class="col-2 text-left">
             <!-- <q-btn flat dense color="white" size="lg" icon="settings"></q-btn> -->
-            <div>
-              <div class="text-white font-20 text-weight-bold q-mt-sm">
+            <div class="q-mt-md">
+              <div class="text-white font-20 text-weight-bold">
                 {{ $moment().format("dddd, LL") }}
               </div>
-              <div class="text-yellow text-weight-bold" style="font-size: 47px">
+              <div class="text-yellow text-weight-bold" style="font-size: 50px">
                 {{ realtimeDate }}
               </div>
-              <span class="text-white" style="margin-top: -10px"
-                >Adzan Berikutnya
-                <span class="text-yellow"
-                  >{{ checkAdzanName(adzanNext) }}
-                  {{ adzanTimeDateNow[adzanNext] }}</span
-                >
-              </span>
             </div>
           </div>
         </div>
@@ -136,23 +98,58 @@
           class="row justify-center items-center content-center"
           style="height: 200px"
         >
-          <div
-            style="width: 85%;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 28px;
-    border-radius: 20px;
-    font-size: 23px;
-    font-style: italic;"
-          >
-            "Ingatlah, kamu adalah orang-orang yang diajak untuk menginfakkan
-            (hartamu) di jalan Allah. Lalu di antara kamu ada orang yang kikir,
-            dan barangsiapa kikir maka sesungguhnya dia kikir terhadap dirinya
-            sendiri. Dan Allah-lah Yang
-            <span class="text-weight-bold">Mahakaya</span> dan kamulah yang
-            membutuhkan (karunia-Nya). Dan jika kamu berpaling (dari jalan yang
-            benar) Dia akan menggantikan (kamu) dengan kaum yang lain, dan
-            mereka tidak akan (durhaka) seperti kamu (ini)". <br />
-            (Qs. Muhammad: 38)
+          <div class="col-7 q-pa-md">
+            <div
+              class="text-white"
+              style="
+              font-size: 25px;
+              font-style: italic;"
+            >
+              "Ingatlah, kamu adalah orang-orang yang diajak untuk menginfakkan
+              (hartamu) di jalan Allah. Lalu di antara kamu ada orang yang
+              kikir, dan barangsiapa kikir maka sesungguhnya dia kikir terhadap
+              dirinya sendiri. Dan Allah-lah Yang
+              <span class="text-weight-bold">Mahakaya</span> dan kamulah yang
+              membutuhkan (karunia-Nya). Dan jika kamu berpaling (dari jalan
+              yang benar) Dia akan menggantikan (kamu) dengan kaum yang lain,
+              dan mereka tidak akan (durhaka) seperti kamu (ini)". <br />
+              (Qs. Muhammad: 38)
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-3">
+            <swiper ref="mySwiper" :options="swiperOption" class="mySwiper">
+              <swiper-slide class="">
+                <q-card class="my-card shadow__">
+                  <q-card-section class="q-pa-md">
+                    <div class="text-subtitle2 text-weight-bold">
+                      lorem ipsum dolor emet
+                    </div>
+                    <div class="text-subtitle2 text-weight-light">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="text-grey text-caption q-mt-sm">
+                      6 juni 2021 | 14:00
+                    </div>
+                  </q-card-section>
+                </q-card>
+              </swiper-slide>
+              <swiper-slide class="">
+                <q-card class="my-card shadow__">
+                  <q-card-section class="q-pa-md">
+                    <div class="text-subtitle2 text-weight-bold">
+                      lorem ipsum dolor emet
+                    </div>
+                    <div class="text-subtitle2 text-weight-light">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
+                    <div class="text-grey text-caption q-mt-sm">
+                      6 juni 2021 | 14:00
+                    </div>
+                  </q-card-section>
+                </q-card>
+              </swiper-slide>
+            </swiper>
           </div>
         </div>
       </div>
@@ -160,86 +157,80 @@
         class="footer-bar column justify-between"
         style="height: 250px; background: rgb(0 0 0 / 24%)"
       >
-        <div class="row q-col-gutter-x-lg" style="height: 200px">
-          <!-- <div class="col bg-purple" style="background: #9c27b0ad">
-            <div class="full-height column justify-center items-center">
-              <div class="font-32 text-yellow text-weight-medium">Imsyak</div>
-              <div class="text-white font-70 text-weight-bold">
-                {{ prayTimeNow ? prayTimeNow.Imsak : "00:00" }}
+        <div class="">
+          <div class="row q-col-gutter-md q-pa-md " style="height: 220px">
+            <div class="col-6">
+              <div class="row full-height q-col-gutter-md">
+                <div class="col-3 " v-for="n in 4" :key="`none-${n}`">
+                  <div class="my-content full-height">
+                    <q-card
+                      class="my-card flex justify-center items-center text-center"
+                      style="height: 200px"
+                    >
+                      <q-card-section>
+                        <div class="text-dark-primary font-27">
+                          Shubuh
+                        </div>
+                        <div class="text-weight-bold" style="font-size: 60px">
+                          00:00
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </div>
               </div>
             </div>
-          </div> -->
-          <div class="col bg-teal" style="background: #00bcd4a6">
-            <div class="full-height column justify-center items-center">
-              <div class="font-32 text-yellow text-weight-medium">Shubuh</div>
-              <div class="text-white font-70 text-weight-bold">
-                {{ prayTimeNow ? prayTimeNow.Imsak : "00:00" }}
-              </div>
-            </div>
-          </div>
-          <div class="col bg-red" style="background: #ff9800ad">
-            <div class="full-height column justify-center items-center">
-              <div class="font-32 text-yellow text-weight-medium">Dzuhur</div>
-              <div class="text-white font-70 text-weight-bold">
-                {{ prayTimeNow ? prayTimeNow.Dhuhr : "00:00" }}
-              </div>
-            </div>
-          </div>
-          <div class="col bg-indigo" style="background: #4caf50d6">
-            <div class="full-height column justify-center items-center">
-              <div class="font-32 text-yellow text-weight-medium">Ashar</div>
-              <div class="text-white font-70 text-weight-bold">
-                {{ prayTimeNow ? prayTimeNow.Asr : "00:00" }}
-              </div>
-            </div>
-          </div>
-          <div class="col bg-green">
-            <div class="full-height column justify-center items-center">
-              <div class="font-32 text-yellow text-weight-medium">Maghrib</div>
-              <div class="text-white font-70 text-weight-bold">
-                {{ prayTimeNow ? prayTimeNow.Maghrib : "00:00" }}
-              </div>
-            </div>
-          </div>
-          <div class="col bg-blue" style="background: #2196f3cc">
-            <div class="full-height column justify-center items-center">
-              <div class="font-32 text-yellow text-weight-medium">Isya</div>
-              <div class="text-white font-70 text-weight-bold">
-                {{ prayTimeNow ? prayTimeNow.Isha : "00:00" }}
+            <div class="col-6">
+              <div class="row full-height q-col-gutter-md">
+                <div class="col-3 " v-for="n in 4" :key="`none-${n}`">
+                  <div class="my-content full-height">
+                    <q-card
+                      :style="
+                        `
+                        ${
+                          n == 2
+                            ? 'background: linear-gradient(180deg,#f44881,#ec454f)'
+                            : ''
+                        }; height: 200px`
+                      "
+                      class="my-card flex justify-center items-center text-center"
+                    >
+                      <q-card-section>
+                        <div
+                          :class="
+                            `${
+                              n == 2 ? 'text-white' : 'text-dark-primary'
+                            } font-27`
+                          "
+                        >
+                          Shubuh
+                        </div>
+                        <div
+                          :class="
+                            `${
+                              n == 2 ? 'text-white' : 'text-dark-primary'
+                            } text-weight-bold`
+                          "
+                          style="font-size: 60px"
+                        >
+                          00:00
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div
-          style="height: 50px; width: 100%; background: black"
+          style="height: 30px; width: 100%;"
           class="flex justify-center items-center"
         >
-          <!-- <marquee-text :duration="15">
-          <a
-            target="_blank"
-            style="font-size: 12px; color: #444444"
-            >asdsadsa</a
-          >
-        </marquee-text> -->
-          <marquee behavior="" direction="">
-            <div class="text-white font-32">
-              <div>
-                <span>
-                  Jadwal Pengajian Rutin Setiap Malam Jum'at Bada Maghrib
-                  Mubaligh Bapak Oman
-                </span>
-                <span class="q-ml-xl">
-                  Jadwal Pengajian Rutin Setiap Malam Sabtu Bada Isya Mubaligh
-                  Bapak Ustadz Anang
-                </span>
-                <span class="q-ml-xl">
-                  Jadwal Pengajian Rutin Setiap Malam Minggu Bada Ashar Mubaligh
-                  Bapak Ustadz Tatang/Bapak Ustadz Udin
-                </span>
-              </div>
-            </div>
-          </marquee>
+          <div class="text-white">
+            &copy;Copyright Pemuda Kp. Sukawening 2021
+          </div>
         </div>
       </div>
     </div>
@@ -273,11 +264,25 @@ export default {
       adzanCurrent: 1,
       adzanNext: 2,
       nextShow: false,
-      isMuted: true
+      isMuted: true,
+
+      swiperOption: {
+        spaceBetween: 10,
+        // slidesPerView: 1,
+        // autoplay: {
+        //   delay: 2000
+        // },
+        // loop: true,
+        // speed: 1000,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        }
+      }
     };
   },
   methods: {
-    activeSound(){
+    activeSound() {
       this.isMuted = false;
 
       var video = document.querySelector(".audio1");
@@ -329,9 +334,6 @@ export default {
 
       if (nowTime === nextAdzan) {
         let detik = this.$moment(time, "H:m:s").format("s");
-
-
-
 
         if (parseInt(detik) == 0) {
           this.isAdzan = true;

@@ -1,0 +1,580 @@
+{
+  "datetime": [
+    {
+      "times": {
+        "Imsak": "04:39",
+        "Sunrise": "05:57",
+        "Fajr": "04:49",
+        "Dhuhr": "11:56",
+        "Asr": "15:18",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:59",
+        "Midnight": "23:22"
+      },
+      "date": {
+        "timestamp": 1627776000,
+        "gregorian": "2021-08-01",
+        "hijri": "1442-12-22"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:39",
+        "Sunrise": "05:57",
+        "Fajr": "04:49",
+        "Dhuhr": "11:56",
+        "Asr": "15:18",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:59",
+        "Midnight": "23:22"
+      },
+      "date": {
+        "timestamp": 1627862400,
+        "gregorian": "2021-08-02",
+        "hijri": "1442-12-23"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:39",
+        "Sunrise": "05:57",
+        "Fajr": "04:49",
+        "Dhuhr": "11:56",
+        "Asr": "15:18",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:59",
+        "Midnight": "23:22"
+      },
+      "date": {
+        "timestamp": 1627948800,
+        "gregorian": "2021-08-03",
+        "hijri": "1442-12-24"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:39",
+        "Sunrise": "05:57",
+        "Fajr": "04:49",
+        "Dhuhr": "11:56",
+        "Asr": "15:17",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:22"
+      },
+      "date": {
+        "timestamp": 1628035200,
+        "gregorian": "2021-08-04",
+        "hijri": "1442-12-25"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:39",
+        "Sunrise": "05:57",
+        "Fajr": "04:49",
+        "Dhuhr": "11:56",
+        "Asr": "15:17",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:22"
+      },
+      "date": {
+        "timestamp": 1628121600,
+        "gregorian": "2021-08-05",
+        "hijri": "1442-12-26"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:38",
+        "Sunrise": "05:56",
+        "Fajr": "04:48",
+        "Dhuhr": "11:55",
+        "Asr": "15:17",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628208000,
+        "gregorian": "2021-08-06",
+        "hijri": "1442-12-27"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:38",
+        "Sunrise": "05:56",
+        "Fajr": "04:48",
+        "Dhuhr": "11:55",
+        "Asr": "15:17",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628294400,
+        "gregorian": "2021-08-07",
+        "hijri": "1442-12-28"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:38",
+        "Sunrise": "05:56",
+        "Fajr": "04:48",
+        "Dhuhr": "11:55",
+        "Asr": "15:17",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628380800,
+        "gregorian": "2021-08-08",
+        "hijri": "1442-12-29"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:38",
+        "Sunrise": "05:56",
+        "Fajr": "04:48",
+        "Dhuhr": "11:55",
+        "Asr": "15:17",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628467200,
+        "gregorian": "2021-08-09",
+        "hijri": "1443-01-01"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:38",
+        "Sunrise": "05:55",
+        "Fajr": "04:48",
+        "Dhuhr": "11:55",
+        "Asr": "15:16",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628553600,
+        "gregorian": "2021-08-10",
+        "hijri": "1443-01-02"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:37",
+        "Sunrise": "05:55",
+        "Fajr": "04:47",
+        "Dhuhr": "11:55",
+        "Asr": "15:16",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628640000,
+        "gregorian": "2021-08-11",
+        "hijri": "1443-01-03"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:37",
+        "Sunrise": "05:55",
+        "Fajr": "04:47",
+        "Dhuhr": "11:55",
+        "Asr": "15:16",
+        "Sunset": "17:55",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628726400,
+        "gregorian": "2021-08-12",
+        "hijri": "1443-01-04"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:37",
+        "Sunrise": "05:54",
+        "Fajr": "04:47",
+        "Dhuhr": "11:54",
+        "Asr": "15:16",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628812800,
+        "gregorian": "2021-08-13",
+        "hijri": "1443-01-05"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:37",
+        "Sunrise": "05:54",
+        "Fajr": "04:47",
+        "Dhuhr": "11:54",
+        "Asr": "15:15",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:58",
+        "Midnight": "23:21"
+      },
+      "date": {
+        "timestamp": 1628899200,
+        "gregorian": "2021-08-14",
+        "hijri": "1443-01-06"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:37",
+        "Sunrise": "05:54",
+        "Fajr": "04:47",
+        "Dhuhr": "11:54",
+        "Asr": "15:15",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:57",
+        "Midnight": "23:20"
+      },
+      "date": {
+        "timestamp": 1628985600,
+        "gregorian": "2021-08-15",
+        "hijri": "1443-01-07"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:36",
+        "Sunrise": "05:53",
+        "Fajr": "04:46",
+        "Dhuhr": "11:54",
+        "Asr": "15:15",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:57",
+        "Midnight": "23:20"
+      },
+      "date": {
+        "timestamp": 1629072000,
+        "gregorian": "2021-08-16",
+        "hijri": "1443-01-08"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:36",
+        "Sunrise": "05:53",
+        "Fajr": "04:46",
+        "Dhuhr": "11:54",
+        "Asr": "15:15",
+        "Sunset": "17:54",
+        "Maghrib": "18:04",
+        "Isha": "18:57",
+        "Midnight": "23:20"
+      },
+      "date": {
+        "timestamp": 1629158400,
+        "gregorian": "2021-08-17",
+        "hijri": "1443-01-09"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:36",
+        "Sunrise": "05:53",
+        "Fajr": "04:46",
+        "Dhuhr": "11:53",
+        "Asr": "15:14",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:57",
+        "Midnight": "23:20"
+      },
+      "date": {
+        "timestamp": 1629244800,
+        "gregorian": "2021-08-18",
+        "hijri": "1443-01-10"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:35",
+        "Sunrise": "05:52",
+        "Fajr": "04:45",
+        "Dhuhr": "11:53",
+        "Asr": "15:14",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:57",
+        "Midnight": "23:20"
+      },
+      "date": {
+        "timestamp": 1629331200,
+        "gregorian": "2021-08-19",
+        "hijri": "1443-01-11"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:35",
+        "Sunrise": "05:52",
+        "Fajr": "04:45",
+        "Dhuhr": "11:53",
+        "Asr": "15:14",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:57",
+        "Midnight": "23:20"
+      },
+      "date": {
+        "timestamp": 1629417600,
+        "gregorian": "2021-08-20",
+        "hijri": "1443-01-12"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:35",
+        "Sunrise": "05:51",
+        "Fajr": "04:45",
+        "Dhuhr": "11:53",
+        "Asr": "15:13",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:57",
+        "Midnight": "23:19"
+      },
+      "date": {
+        "timestamp": 1629504000,
+        "gregorian": "2021-08-21",
+        "hijri": "1443-01-13"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:34",
+        "Sunrise": "05:51",
+        "Fajr": "04:44",
+        "Dhuhr": "11:52",
+        "Asr": "15:13",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:56",
+        "Midnight": "23:19"
+      },
+      "date": {
+        "timestamp": 1629590400,
+        "gregorian": "2021-08-22",
+        "hijri": "1443-01-14"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:34",
+        "Sunrise": "05:51",
+        "Fajr": "04:44",
+        "Dhuhr": "11:52",
+        "Asr": "15:12",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:56",
+        "Midnight": "23:19"
+      },
+      "date": {
+        "timestamp": 1629676800,
+        "gregorian": "2021-08-23",
+        "hijri": "1443-01-15"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:34",
+        "Sunrise": "05:50",
+        "Fajr": "04:44",
+        "Dhuhr": "11:52",
+        "Asr": "15:12",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:56",
+        "Midnight": "23:19"
+      },
+      "date": {
+        "timestamp": 1629763200,
+        "gregorian": "2021-08-24",
+        "hijri": "1443-01-16"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:33",
+        "Sunrise": "05:50",
+        "Fajr": "04:43",
+        "Dhuhr": "11:52",
+        "Asr": "15:12",
+        "Sunset": "17:54",
+        "Maghrib": "18:03",
+        "Isha": "18:56",
+        "Midnight": "23:18"
+      },
+      "date": {
+        "timestamp": 1629849600,
+        "gregorian": "2021-08-25",
+        "hijri": "1443-01-17"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:33",
+        "Sunrise": "05:49",
+        "Fajr": "04:43",
+        "Dhuhr": "11:51",
+        "Asr": "15:11",
+        "Sunset": "17:53",
+        "Maghrib": "18:03",
+        "Isha": "18:56",
+        "Midnight": "23:18"
+      },
+      "date": {
+        "timestamp": 1629936000,
+        "gregorian": "2021-08-26",
+        "hijri": "1443-01-18"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:33",
+        "Sunrise": "05:49",
+        "Fajr": "04:43",
+        "Dhuhr": "11:51",
+        "Asr": "15:11",
+        "Sunset": "17:53",
+        "Maghrib": "18:02",
+        "Isha": "18:56",
+        "Midnight": "23:18"
+      },
+      "date": {
+        "timestamp": 1630022400,
+        "gregorian": "2021-08-27",
+        "hijri": "1443-01-19"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:32",
+        "Sunrise": "05:48",
+        "Fajr": "04:42",
+        "Dhuhr": "11:51",
+        "Asr": "15:10",
+        "Sunset": "17:53",
+        "Maghrib": "18:02",
+        "Isha": "18:55",
+        "Midnight": "23:18"
+      },
+      "date": {
+        "timestamp": 1630108800,
+        "gregorian": "2021-08-28",
+        "hijri": "1443-01-20"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:32",
+        "Sunrise": "05:48",
+        "Fajr": "04:42",
+        "Dhuhr": "11:50",
+        "Asr": "15:10",
+        "Sunset": "17:53",
+        "Maghrib": "18:02",
+        "Isha": "18:55",
+        "Midnight": "23:17"
+      },
+      "date": {
+        "timestamp": 1630195200,
+        "gregorian": "2021-08-29",
+        "hijri": "1443-01-21"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:31",
+        "Sunrise": "05:47",
+        "Fajr": "04:41",
+        "Dhuhr": "11:50",
+        "Asr": "15:09",
+        "Sunset": "17:53",
+        "Maghrib": "18:02",
+        "Isha": "18:55",
+        "Midnight": "23:17"
+      },
+      "date": {
+        "timestamp": 1630281600,
+        "gregorian": "2021-08-30",
+        "hijri": "1443-01-22"
+      }
+    },
+    {
+      "times": {
+        "Imsak": "04:31",
+        "Sunrise": "05:47",
+        "Fajr": "04:41",
+        "Dhuhr": "11:50",
+        "Asr": "15:09",
+        "Sunset": "17:53",
+        "Maghrib": "18:02",
+        "Isha": "18:55",
+        "Midnight": "23:17"
+      },
+      "date": {
+        "timestamp": 1630368000,
+        "gregorian": "2021-08-31",
+        "hijri": "1443-01-23"
+      }
+    }
+  ],
+  "location": {
+    "latitude": -6.9174637794494629,
+    "longitude": 107.61912536621094,
+    "elevation": 710.0,
+    "city": "Bandung",
+    "country": "Republic of Indonesia",
+    "country_code": "ID",
+    "timezone": "Asia/Jakarta",
+    "local_offset": 7.0
+  },
+  "settings": {
+    "timeformat": "HH:mm",
+    "school": "Ithna Ashari",
+    "juristic": "Shafii",
+    "highlat": "None",
+    "fajr_angle": 18.0,
+    "isha_angle": 17.0
+  }
+}

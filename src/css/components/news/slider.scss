@@ -1,0 +1,15 @@
+.news {
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    .swiper-slide {
+      width: 300px !important;
+      border-radius: 6px;
+      & img {
+        height: 150px;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+// Example: Import Open Sans with multiple weights
+@import url('<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">');
+@import "components/components";
+@import "utilities/_typography";
+@import "components/colors";
+// Set the default font-family
+$typography-font-family: "Manrope", sans-serif !default;
+
+// Fix font-weight values to match the imported font family weights
+$text-weights: (
+  thin: 400,
+  light: 500,
+  regular: 600,
+  medium: 700,
+  bold: 800,
+  bolder: 800
+) !default;
+$button-font-weight: 600; // or 400 if you prefer thinner

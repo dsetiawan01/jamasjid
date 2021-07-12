@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">jamasjid al-fatah</string>
-    <string name="title_activity_main">jamasjid al-fatah</string>
-    <string name="package_name">jamasjid.innodigi.tech</string>
-    <string name="custom_url_scheme">jamasjid.innodigi.tech</string>
-</resources>

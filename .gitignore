@@ -32,6 +32,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 
+.env
+my-release-key.keystore
+src-capacitor
+
 dev.env
 prod.env
 development.env

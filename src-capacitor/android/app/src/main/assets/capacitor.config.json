@@ -1,7 +1,0 @@
-{
-  "appId": "jamasjid.innodigi.tech",
-  "appName": "jamasjid al-fatah",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www"
-}

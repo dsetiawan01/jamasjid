@@ -18,7 +18,7 @@
     "leaflet": "^1.7.1",
     "quasar": "^1.0.0",
     "save-dev": "0.0.1-security",
-    "swiper": "^6.5.9",
+    "swiper": "^5.4.5",
     "v-money": "^0.8.1",
     "vue-awesome-swiper": "^4.1.1",
     "vue-chartjs": "^3.5.1",

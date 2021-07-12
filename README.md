@@ -8,11 +8,6 @@ npm install
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
-
 ### Build the app for production
 ```bash
 quasar build
@@ -21,5 +16,6 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
-##setting .env
-https://www.youtube.com/watch?v=SR_2vbTlF78
+### App for auto restart
+See [Stay and autostart](https://m.apkpure.com/autostart-and-stay/com.atasoglou.autostartandstay).
+
